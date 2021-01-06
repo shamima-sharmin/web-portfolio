@@ -1,18 +1,107 @@
-body{
-    font-family: 'Poppins', sans-serif;
-}
-h1{
-    font-size: 50px;
-}
 .name-highlight{
     color: orangered;
 }
-.half-width{
-    width: 40% ;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-size: 40px
+}
+.color{
+    color: red;
 }
 .half-width img {
+    width: 80%;
+    
+}
+.color{
+    color: red;
+}
+#header{
+    background-image: url(images/dream-bg.png)
+    
+}
+#New{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#work{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.highlight{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.gym{
+    color: tomato;
+}
+.projects{
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.projects img{
     width: 100%;
+}
+.projects h4{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-left: 10px;
+}
+#skills{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.width{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 20px 20px 40px rgb(209, 10, 10);
+    border-radius: 10px;
+}
+.inquiry{
+    width: 80%;
+     margin: 4% 10% 5% 10%;
+}
+.inquiry img{
+    width: 100%;
+}
+.inf0{
+    position: relative;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.info h2{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+.info a{
+    display: inline-block;
+    margin-left: 20%;
+    color: #fff;
+    text-decoration: none;
+    background-image: -o-linear-gradient(#fc7662,#f66460);
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.half-width-new{
+    float: right;
+}
+.half-width{
+    float: left;
+}
+.h2{
+    float:left
 }
